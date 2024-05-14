@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFF;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.div1 { grid-area: 1 / 1 / 5 / 2; }
+.div2 { grid-area: 5 / 1 / 7 / 3; }
+.div3 { grid-area: 5 / 3 / 7 / 4; }
+.div4 { grid-area: 5 / 4 / 7 / 9; }
+.new-music { grid-area: 1 / 2 / 5 / 4; }
+.div6 { grid-area: 1 / 4 / 5 / 9; }

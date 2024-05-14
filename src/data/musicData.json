@@ -1,0 +1,12 @@
+[
+    {
+        "imgSrc": "imagen1.jpg",
+        "song": "Canción 1",
+        "artist": "Artista 1"
+    },
+    {
+        "imgSrc": "imagen2.jpg",
+        "song": "Canción 2",
+        "artist": "Artista 2"
+    }
+]
