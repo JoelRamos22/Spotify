@@ -22,6 +22,8 @@ export class gridSpotify extends LitElement {
         .top-chart { 
             grid-area: 1 / 2 / 3 / 5; 
             padding: 5px; 
+            display: flex; 
+            justify-content: center; 
         }
         .new-music {
             grid-area: 3 / 2 / 8 / 5;

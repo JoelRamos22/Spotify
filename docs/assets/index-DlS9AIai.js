@@ -106,7 +106,7 @@ var mt=Object.defineProperty;var yt=(o,t,e)=>t in o?mt(o,t,{enumerable:!0,config
         }
         .container_title {
             text-transform: capitalize;
-            font-size: 1.5em;
+            font-size: 1.7em;
             margin-block-start: 0em;
             margin-block-end: 0em
         }
@@ -501,6 +501,8 @@ var mt=Object.defineProperty;var yt=(o,t,e)=>t in o?mt(o,t,{enumerable:!0,config
         .top-chart { 
             grid-area: 1 / 2 / 3 / 5; 
             padding: 5px; 
+            display: flex; 
+            justify-content: center; 
         }
         .new-music {
             grid-area: 3 / 2 / 8 / 5;

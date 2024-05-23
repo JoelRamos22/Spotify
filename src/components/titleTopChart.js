@@ -22,7 +22,7 @@ export class titlesTopChart extends LitElement {
         }
         .container_title {
             text-transform: capitalize;
-            font-size: 1.5em;
+            font-size: 1.7em;
             margin-block-start: 0em;
             margin-block-end: 0em
         }
