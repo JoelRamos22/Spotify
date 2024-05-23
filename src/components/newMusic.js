@@ -16,7 +16,10 @@ export class newMusic extends LitElement {
         this.imgSrc = ""
         this.textSongClass = "ArtistSong"
         this.textArtistClass = "ArtistCompositor"
-        this.dataMusic = sortSongsForPopularity()
+    }
+    async connectedCallback() {
+        super.connectedCallback();
+        this.dataMusic = await sortSongsForPopularity()
     }
     static styles = css`
         * {
@@ -27,11 +30,10 @@ export class newMusic extends LitElement {
             flex-wrap: wrap;
             align-items: center;
             overflow-x: scroll;
-            justify-content: space-around;
             flex-direction: row;
             flex: 1; 
-            height: 345px;
-            width: 315px;
+            height: 100%;
+            width: 100%;
             gap: 5px;
         }
         .container::-webkit-scrollbar {
@@ -42,15 +44,15 @@ export class newMusic extends LitElement {
             flex-direction: column;
             background: #fff;
             width: 48%;
-            height: 60%;
             cursor: pointer;
         }
         .boxMusic__img { 
             display: flex;
             align-items: center;
+            justify-content: center; 
             justify-content: center;
             width: 98%;
-            height: 65%;
+            height: 45%;
             border-radius: 10px;
         }
         .boxMusic__text { 

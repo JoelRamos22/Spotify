@@ -13,13 +13,13 @@ export class myTrack extends LitElement{
         }
 
         async loadSong() {
-        const url = 'https://spotify23.p.rapidapi.com/artist_singles/?id=2w9zwq3AktTeYYMuhMjju8&offset=0&limit=30';
+        const url = 'https://spotify23.p.rapidapi.com/artist_singles/?id=2w9zwq3AktTeYYMuhMjju8&offset=0&limit=20';
         const options = {
-            method: 'GET',
-            headers: {
-            'X-RapidAPI-Key': '29392637f6msh22f35e67f4b3080p17fbe7jsn0806c5a433fb',
-            'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
-            }
+                method: 'GET',
+                headers: {
+                    'X-RapidAPI-Key': 'e5b9911b98msh911243acdf5e21dp1f37e9jsn39f4c8b5f857',
+                    'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
+                }
         };
         
         try {
@@ -60,6 +60,9 @@ export class myTrack extends LitElement{
     }
 
         static styles = css`
+        * {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+        }
         .card {
         margin: 10px;
         padding: 0;

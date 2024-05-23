@@ -22,7 +22,7 @@ export class titlesTopChart extends LitElement {
         }
         .container_title {
             text-transform: capitalize;
-            font-size: 2em;
+            font-size: 1.5em;
             margin-block-start: 0em;
             margin-block-end: 0em
         }
@@ -37,7 +37,7 @@ export class titlesTopChart extends LitElement {
     render() {
         return html`
             <div class="container">
-                <h1 class="${this.classTitle}">discover new music</h1>
+                <h2 class="${this.classTitle}">discover new music</h2>
                 <div class="${this.classText}">
                     <h3 class="title_1">Top-chart</h3> 
                     <h3 class="title_2">Week</h3>
