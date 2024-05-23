@@ -30,6 +30,9 @@ export class titlesTopChart extends LitElement {
             display:flex;
             justify-content: space-between;
         }
+        .title_2 {
+            color: #d1cfcf
+        }
     `
     render() {
         return html`
@@ -37,7 +40,7 @@ export class titlesTopChart extends LitElement {
                 <h1 class="${this.classTitle}">discover new music</h1>
                 <div class="${this.classText}">
                     <h3 class="title_1">Top-chart</h3> 
-                    <h3 class="title_2">Week </h3>
+                    <h3 class="title_2">Week</h3>
                 </div> 
             </div>
         `
