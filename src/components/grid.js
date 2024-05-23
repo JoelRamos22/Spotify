@@ -24,8 +24,6 @@ export class gridSpotify extends LitElement {
             padding: 5px; 
         }
         .new-music {
-            display: flex; 
-            align-items: center;
             grid-area: 3 / 2 / 8 / 5;
             padding: 5px; 
         }

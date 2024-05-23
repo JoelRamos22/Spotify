@@ -72,6 +72,7 @@ export class MyLeftBar extends LitElement {
                 display:flex;
                 flex-direction: column; 
                 gap: 10px; 
+                justify-content: start;
             }
             .buton {
                 background: transparent;
@@ -87,12 +88,14 @@ export class MyLeftBar extends LitElement {
                 display:flex;
                 flex-direction: column; 
                 gap: 15px; 
+                justify-content: center; 
             }
             .icons3 {
                 height: 20%;
                 display:flex;
                 flex-direction: column; 
-                gap: 10px; 
+                gap: 10px;
+                justify-content: end; 
             }
             .buton-config, .buton-out {
                 background: transparent; 
